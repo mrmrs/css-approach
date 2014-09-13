@@ -546,7 +546,7 @@ th {
 .o-bra1 {
   border-radius: 2px; }
 
-.o-bra2 {
+.o-bra2, .modalDialog {
   border-radius: 4px; }
 
 .o-bra3 {
