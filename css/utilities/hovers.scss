@@ -1,0 +1,42 @@
+//
+// Hover Hook
+// -------------------------
+
+// Hover an element and some child elements change state.
+// You can see this in action when you hover a comment
+// on Youtube or Facebook causing icons to appear or
+// links to change color. Youtube have implemented it
+// in a really unusable way. This solves the problem.
+// The hover styles should be customized.
+
+.hover-hook {
+  .hover1 {
+    // This hides the element from screenreaders too.
+    // Dunno if thats a good idea or not but the
+    // workaround is mental. The workaround would
+    // work well as a sass placeholder.
+    visibility: hidden;
+  }
+  
+  .hover2 {
+    @include opacity(.5);
+  }
+  
+  .hover3 {
+    color: ;
+  }
+  
+  &:hover {
+    .hover1 {
+      visibility: visibile;
+    }
+    
+    .hover2 {
+      @include opacity(1);
+    }
+    
+    .hover3 {
+      color: ;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+//
+// Positioning
+// -------------------------
+
+.o-posAbsolute {
+  position: absolute;
+}
+
+// 1. Make sure fixed elements are promoted into a new layer, for performance
+//    reasons.
+
+.o-posFixed {
+  position: fixed;
+  -webkit-backface-visibility: hidden; /* 1 */
+          backface-visibility: hidden; /* 1 */
+}
+
+.o-posRelative {
+  position: relative;
+}
+
+.o-posStatic {
+  position: static;
+}
+
+// Pin an element to the top left edge of its parent.
+
+.o-posPinTL {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+// Pin an element to all corners. But when a width and/or height are
+// provided, the element will be centered in its nearest
+// relatively-positioned ancestor.
+
+.o-posPinAll {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}

@@ -1,0 +1,21 @@
+//
+// Vertical alignment
+// -------------------------
+
+// Depends on an appropriate `display` value.
+
+.o-alignBaseline {
+  vertical-align: baseline;
+}
+
+.o-alignBottom {
+  vertical-align: bottom;
+}
+
+.o-alignMiddle {
+  vertical-align: middle;
+}
+
+.o-alignTop {
+  vertical-align: top;
+}

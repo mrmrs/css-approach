@@ -1,0 +1,42 @@
+//
+// Colors
+// -------------------------
+
+
+// Variables
+// -------------------------
+
+$accent: #0097e9;
+$gray-M: #303949;
+$gray-Ls: #AAAAB4;
+$gray-L: #C5C5CC;
+$gray-Lr: #D0D0D5;
+$gray-Xl: #f9f9fb;
+
+
+// Components
+// -------------------------
+
+.bg-White {
+  background: #fff;
+  color: $gray-M;
+}
+
+.bg-Light {
+  background: $gray-Xl;
+  color: $gray-M;
+}
+
+
+// Color balance trick
+// -------------------------
+
+// This is a handy utility for checking the balance
+// of your color scheme. Uncomment this CSS block
+// to turn make colors on the colors.html grayscale.
+// All colors of a similar shade should be pretty
+// closely matched. 
+
+//[class^="bg-"] {
+//  -webkit-filter: grayscale(1);
+//}

@@ -1,0 +1,34 @@
+//
+// Borders
+// -------------------------
+
+
+// Variables
+// -------------------------
+
+$borderThin: 1px;
+$borderThick: 2px;
+
+
+// Component
+// -------------------------
+
+.borderSolid {
+  border-style: solid;
+}
+
+.borderDashed {
+  border-style: dashed;
+}
+
+.borderThin {
+  border-width: $borderThin;
+}
+
+.borderThick {
+  border-width: $borderThick;
+}
+
+.borderColorBevel {
+  border-color: $gray-Ls $gray-L $gray-Lr;
+}

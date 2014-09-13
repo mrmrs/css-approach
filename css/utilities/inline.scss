@@ -1,0 +1,12 @@
+//
+// Inline
+// -------------------------
+
+// Place any elements inline.
+
+.u-inline {
+	@extend .u-clearfix;
+  > div {
+    @extend .o-displayInlineBlock;
+  }
+}

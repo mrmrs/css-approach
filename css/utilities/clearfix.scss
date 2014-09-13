@@ -1,0 +1,19 @@
+//
+// Clearfix
+// -------------------------
+
+// Micro clearfix to clear floats.
+
+.u-cf {
+  &:before,
+  &:after {
+    content: "";
+    @extend .o-displayTable;
+  }
+}
+
+.u-cf {
+  &:after {
+    @extend .o-clearB;
+  }
+}

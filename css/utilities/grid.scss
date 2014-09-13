@@ -1,0 +1,39 @@
+//
+// Grid
+// -------------------------
+
+// Variables
+// -------------------------
+
+$gutter: 40px;
+
+// Root
+// -------------------------
+
+.u-grid {
+  margin-top: -$gutter;
+  margin-left: -$gutter;
+  @extend .u-cf;
+  
+  > div {
+    @extend .o-floatL;
+    margin-top: $gutter;
+    margin-left: $gutter;
+  }
+  
+  &.u-grid--1 > div {
+    width: calc(100% - #{$gutter});
+  }
+
+  &.u-grid--2 > div {
+    width: calc(50% - #{$gutter});
+  }
+
+  &.u-grid--3 > div {
+    width: calc(33.3333% - #{$gutter});
+  }
+
+  &.u-grid--4 > div {
+    width: calc(25% - #{$gutter});
+  }
+}

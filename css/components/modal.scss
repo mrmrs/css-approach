@@ -1,0 +1,61 @@
+//
+// Modal dialog
+// -------------------------
+
+// Variables
+// -------------------------
+
+$modalWide: 500px;
+
+// Component root
+// -------------------------
+
+.modalDialog {
+  @extend .o-posAbsolute;
+  top: 100px;
+  left: 50%;
+  @extend .bg-White;
+  @extend .borderSolid;
+  @extend .borderThin;
+  @extend .borderColorBevel;
+  @extend .o-bra;
+  box-shadow: 0 2px 6px rgba(0,0,0,.05);
+  @extend .u-cf;
+  @extend .opacity0;
+}
+
+// Component modifiers
+// -------------------------
+
+.modalDialog--wide {
+  width: $modalWide;
+  margin-left: -$modalWide / 2;
+}
+
+// Component descendants
+// -------------------------
+
+.modalDialog-header {
+  @extend .o-pal;
+  @extend .u-cf;
+}
+
+.modalDialog-body {
+  @extend .o-prl;
+  @extend .o-pbl;
+  @extend .o-pll;
+  @extend .u-cf;
+}
+
+.modalDialog-footer {
+  @extend .bg-Light;
+  @extend .o-pal;
+  @extend .u-cf;
+}
+
+// Component states
+// -------------------------
+
+.modalDialog.is-active {
+  @extend .opacity1;
+}

@@ -1,0 +1,18 @@
+//
+// Page Wrap
+// -------------------------
+
+// Wrap a piece of content in a horizontally
+// centered container.
+
+// Variables
+// -------------------------
+
+$pageWrapWidth: 90%;
+$pageWrapMaxWidth: 1000px;
+
+.u-pageWrap {
+  width: $pageWrapWidth;
+  max-width: $pageWrapMaxWidth;
+  margin: 0 auto; // Maybe this should be extended?
+}

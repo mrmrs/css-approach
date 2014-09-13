@@ -1,0 +1,32 @@
+//
+// Border radius
+// -------------------------
+
+// Variables
+// -------------------------
+
+$br1: 2px;
+$br2: 4px;
+$br3: 10px;
+
+// Equal corners
+// -------------------------
+
+.o-bra1 {
+  border-radius: $br1;
+}
+
+.o-bra2 {
+  border-radius: $br2;
+}
+
+.o-bra3 {
+  border-radius: $br3;
+}
+
+.o-braRound {
+  border-radius: 50%;
+}
+
+// Unequal corners
+// -------------------------

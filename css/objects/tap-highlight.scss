@@ -1,0 +1,10 @@
+//
+// Tap Highlight
+// -------------------------
+
+// iOS adding a black background flash
+// when an element gets tapped.
+
+.o-highlightNone {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}

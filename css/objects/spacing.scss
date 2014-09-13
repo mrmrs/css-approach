@@ -1,0 +1,66 @@
+//
+// Spacing
+// -------------------------
+
+// Variables
+// -------------------------
+
+$spaceS:  6px;
+$spaceM:  12px;
+$spaceL:  30px;
+
+// Root component
+// -------------------------
+
+.o-pas {
+  padding: $spaceS;
+}
+.o-pts {
+  padding-top: $spaceS;
+}
+.o-prs {
+  padding-right: $spaceS;
+}
+.o-pbs {
+  padding-bottom: $spaceS;
+}
+.o-pls {
+  padding-left: $spaceS;
+}
+
+.o-pam {
+  padding: $spaceM;
+}
+.o-ptm {
+  padding-top: $spaceM;
+}
+.o-prm {
+  padding-right: $spaceM;
+}
+.o-pbm {
+  padding-bottom: $spaceM;
+}
+.o-plm {
+  padding-left: $spaceM;
+}
+
+.o-pal {
+  padding: $spaceL;
+}
+.o-ptl {
+  padding-top: $spaceL;
+}
+.o-prl {
+  padding-right: $spaceL;
+}
+.o-pbl {
+  padding-bottom: $spaceL;
+}
+.o-pll {
+  padding-left: $spaceL;
+}
+
+.o-marginAuto {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,60 @@
+//
+// Overflow
+// -------------------------
+
+// Basic overflows
+// -------------------------
+
+.o-ofVisible {
+  overflow: visible;
+}
+
+.o-ofHidden {
+  overflow: hidden;
+}
+
+.o-ofScroll {
+  overflow: scroll;
+}
+
+.o-ofAuto {
+  overflow: auto;
+}
+
+// X-axis
+// -------------------------
+
+.o-ofxVisible {
+  overflow-x: visible;
+}
+
+.o-ofxHidden {
+  overflow-x: hidden;
+}
+
+.o-ofxScroll {
+  overflow-x: scroll;
+}
+
+.o-ofxAuto {
+  overflow-x: auto;
+}
+
+// Y-axis
+// -------------------------
+
+.o-ofyVisible {
+  overflow-y: visible;
+}
+
+.o-ofyHidden {
+  overflow-y: hidden;
+}
+
+.o-ofyScroll {
+  overflow-y: scroll;
+}
+
+.o-ofyAuto {
+  overflow-y: auto;
+}
