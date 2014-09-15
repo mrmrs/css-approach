@@ -1,0 +1,6 @@
+# Ignore system file
+.DS_Store
+
+# Ignore the cache directory left around by sass
+.sass-cache
+
